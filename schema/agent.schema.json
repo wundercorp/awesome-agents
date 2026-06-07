@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Awesome Agents entry",
+  "type": "object",
+  "required": [
+    "slug",
+    "name",
+    "category",
+    "description",
+    "homepage_url",
+    "agent_card_url",
+    "license",
+    "status"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "slug": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "homepage_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "agent_card_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "agent_json_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "a2a_endpoint_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "docker_image": {
+      "type": "string"
+    },
+    "protocols": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "license": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

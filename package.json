@@ -1,0 +1,11 @@
+{
+  "name": "awesome-agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-catalog.mjs",
+    "generate": "node scripts/generate-readme.mjs",
+    "check": "node scripts/validate-catalog.mjs && node scripts/generate-readme.mjs"
+  }
+}

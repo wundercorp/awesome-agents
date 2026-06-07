@@ -1,0 +1,52 @@
+name: Submit a agent
+description: Suggest a agent for the directory.
+title: "Add <name>"
+labels: [submission]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Public name of the agent.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Public URL
+      description: Homepage, repository, package, or card URL.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - accessibility
+        - architecture
+        - browser-automation
+        - code-hosting
+        - communication
+        - data
+        - deployment
+        - design
+        - developer-tools
+        - development
+        - documentation
+        - files
+        - knowledge
+        - localization
+        - maintenance
+        - media
+        - observability
+        - orchestration
+        - security
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two sentences explaining what it does.
+    validations:
+      required: true

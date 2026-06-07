@@ -1,0 +1,28 @@
+{
+  "slug": "aurelius-agent",
+  "name": "Aurelius Agent",
+  "category": "orchestration",
+  "description": "Strategic planning and orchestration agent for decomposing complex work, preparing context, coordinating implementation lanes, and guiding focused execution.",
+  "homepage_url": "https://aureliusagent.dev/",
+  "agent_card_url": "https://aureliusagent.dev/.well-known/agent-card.json",
+  "agent_json_url": "https://aureliusagent.dev/.well-known/agent.json",
+  "a2a_endpoint_url": "https://aureliusagent.dev/a2a",
+  "docker_image": "ghcr.io/wundercorp/aurelius-agent:0.3.9",
+  "latest_docker_image": "ghcr.io/wundercorp/aurelius-agent:latest",
+  "license": "Proprietary",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "protocols": [
+    "A2A"
+  ],
+  "tags": [
+    "planning",
+    "orchestration",
+    "developer-tools",
+    "builderstudio",
+    "a2a"
+  ],
+  "status": "active"
+}
