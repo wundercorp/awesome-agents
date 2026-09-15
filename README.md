@@ -18,6 +18,7 @@ node scripts/generate-readme.mjs
 | Agent | Description | Protocols | Links |
 |---|---|---|---|
 | Aurelius Agent | Strategic planning and orchestration agent for decomposing complex work, preparing context, coordinating implementation lanes, and guiding focused execution. | A2A | [Homepage](https://aureliusagent.dev/)<br>[AgentCard](https://aureliusagent.dev/.well-known/agent-card.json)<br>[A2A](https://aureliusagent.dev/a2a)<br>`ghcr.io/wundercorp/aurelius-agent:0.3.9` |
+| HostDeFi | Multi-chain DEX front-end agent — token-safety scans (A+–F grades), swap routing, pay-per-call API | A2A, MCP, x402, ERC-8004 | [Homepage](https://hostdefi.com/)<br>[AgentCard](https://hostdefi.com/.well-known/agent.json)<br>[MCP](https://hostdefi.com/api/v1/mcp) |
 
 ## Repository format
 
