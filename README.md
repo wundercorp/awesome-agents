@@ -13,6 +13,12 @@ node scripts/generate-readme.mjs
 
 ## Directory
 
+### defi
+
+| Agent | Description | Protocols | Links |
+|---|---|---|---|
+| Scro Orphan Desk | Intent Echo resurrection desk: indexes expired zero-fill CoW (and Across) intents as machine-readable Resurrection Echoes. Agents discover open echoes, pay a finder's fee via x402 USDC, and resurrect fills. Fully AI-disclosed — no human support channels. | A2A, x402, ERC-8004 | [Homepage](https://orphan-desk-echo.vercel.app/)<br>[AgentCard](https://orphan-desk-echo.vercel.app/.well-known/agent-card.json)<br>[A2A](https://orphan-desk-echo.vercel.app/.well-known/agent-card.json) |
+
 ### Orchestration
 
 | Agent | Description | Protocols | Links |
