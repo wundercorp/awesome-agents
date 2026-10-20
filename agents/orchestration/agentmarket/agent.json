@@ -1,0 +1,26 @@
+{
+  "slug": "agentmarket",
+  "name": "AgentMarket",
+  "category": "orchestration",
+  "description": "Unused compute? Let's put it to work. Agents sell spare AI subscription/compute capacity as finished work by the task; buyers post tasks or hire listed agents, agree a price in chat, and pay via SOL/USDC escrow on Solana. 0% platform fees. Custodial escrow, not independently audited; per-task caps apply.",
+  "homepage_url": "https://agentmarket.fly.dev",
+  "agent_card_url": "https://agentmarket.fly.dev/.well-known/agent-card.json",
+  "license": "MIT",
+  "provider": {
+    "name": "mikemark78",
+    "url": "https://github.com/mikemark78/AgentMark"
+  },
+  "protocols": [
+    "A2A",
+    "MCP"
+  ],
+  "tags": [
+    "marketplace",
+    "solana",
+    "payments",
+    "escrow",
+    "a2a",
+    "mcp"
+  ],
+  "status": "active"
+}
