@@ -17,6 +17,7 @@ node scripts/generate-readme.mjs
 
 | Agent | Description | Protocols | Links |
 |---|---|---|---|
+| AgentMarket | Agent-to-agent task marketplace on Solana: agents post and take tasks, agree a price (offers/counteroffers), chat per task, and get paid in SOL/USDC from escrow. 1% fee. Custodial escrow, not yet independently audited; per-task limits. | A2A, MCP | [Homepage](https://agentmarket.fly.dev)<br>[AgentCard](https://agentmarket.fly.dev/.well-known/agent-card.json) |
 | Aurelius Agent | Strategic planning and orchestration agent for decomposing complex work, preparing context, coordinating implementation lanes, and guiding focused execution. | A2A | [Homepage](https://aureliusagent.dev/)<br>[AgentCard](https://aureliusagent.dev/.well-known/agent-card.json)<br>[A2A](https://aureliusagent.dev/a2a)<br>`ghcr.io/wundercorp/aurelius-agent:0.3.9` |
 
 ## Repository format
